@@ -1,0 +1,12 @@
+nextcloud_table_oc_addressbookchanges.sql
+nextcloud_table_oc_authtoken.sql
+nextcloud_table_oc_calendarchanges.sql
+nextcloud_table_oc_calendars.sql
+nextcloud_table_oc_files_trash.sql
+nextcloud_table_oc_jobs.sql
+nextcloud_table_oc_mounts.sql
+nextcloud_table_oc_preferences.sql
+nextcloud_table_oc_share.sql
+nextcloud_table_oc_text_documents.sql
+nextcloud_table_oc_text_sessions.sql
+nextcloud_table_oc_user_status.sql
