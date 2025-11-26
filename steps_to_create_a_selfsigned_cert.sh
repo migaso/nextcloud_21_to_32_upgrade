@@ -4,13 +4,13 @@
 cd /your/path/nextcloud
 
 # copy files from nextcloud docker container
-docker cp nexcloud_app_container:/etc/apache2 .
+docker cp nextcloud_app_<container>:/etc/apache2 .
 
 mkdir -p ./apache2/ssl
 openssl req -x509 -nodes -days 1825 -newkey rsa:2048 -out ./apache2/ssl/server.crt -keyout ./apache2/ssl/server.key
 
 # connect to container
-docker exec -it nexcloud_app_container sh
+docker exec -it nextcloud_app_<container> sh
 
 # run next command
 a2enmod ssl
